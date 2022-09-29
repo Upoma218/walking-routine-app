@@ -15,7 +15,7 @@ const Questions = () => {
             <p>The difference is which component is the data's owner. Locally owned and updated state is controlled by the component itself. Props are read-only and owned by a parent component. Only when a callback function is passed to the child to cause an upstream change can props be changed.A prop can be used to transfer a parent component's state to a child component. Although they both refer to the same variable, only the parent component is able to make changes.
                 <br />
                 <br />
-                <h3>Let's review and examine the key distinctions between props and state:</h3>
+                Let's review and examine the key distinctions between props and state:
                 <br />
 
                 a. While the state allows components to create and maintain their own data, props allow them to receive data from the outside.
