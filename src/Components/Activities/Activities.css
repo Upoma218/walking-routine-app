@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+    .activities{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .activities-container{
+        margin: 10%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        color: rgb(221, 2, 122);
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
+    .activities{
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+    .activities-container{
+        margin: 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        color: rgb(221, 2, 122);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .activities{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        top: 0;
+    }
+    .activities-container{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        color: rgb(221, 2, 122);
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .activities{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        top: 0;
+    }
+    .activities-container{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        color: rgb(221, 2, 122);
+    }
+}
+@media screen and (min-width: 1201px){
+    .activities{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        top: 0;
+    }
+    .activities-container{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        color: rgb(221, 2, 122);
+    }
+}

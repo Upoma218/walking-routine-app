@@ -1,0 +1,38 @@
+[
+    {
+      "id": "633491c00c99469bd0b8ce5d",
+      "img": "images/img 1.jpg",
+      "name": "Saturday",
+      "time": 47
+    },
+    {
+      "id": "633491c027fc9c63826c5fc0",
+      "img": "images/img 2.jpg",
+      "name": "Sunday",
+      "time": 54
+    },
+    {
+      "id": "633491c004a2cd88eb8a5d4e",
+      "img": "images/img 3.jpg",
+      "name": "Monday",
+      "time": 50
+    },
+    {
+      "id": "633491c0ad92037d44913138",
+      "img": "images/img 4.jpg",
+      "name": "Tuesday",
+      "time": 53
+    },
+    {
+      "id": "633491c09c204f7fbdc68af0",
+      "img": "images/img 5.jpg",
+      "name": "Wednesday",
+      "time": 45
+    },
+    {
+      "id": "633491c0ad6a780f6dfa26f6",
+      "img": "images/img 6.jpg",
+      "name": "Thursday",
+      "time": 55
+    }
+  ]
