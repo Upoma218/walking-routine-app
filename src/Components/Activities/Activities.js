@@ -5,19 +5,14 @@ import "./Activities.css"
 
 const Activities = () =>{
     const [carts, setCarts] = useState([]);
-
+    const [time, setTime] = useState(0);
     useEffect(() => {
         fetch('cart.json')
         .then(res => res.json())
         .then(data => setCarts(data))
     },[])
-    const handleAddTime = (cart) =>{
-        let time = 0;
-        const getTime = cart.time;
-        const newTime = time + getTime;
-        const setTime = newTime;
-        console.log(setTime);
-        
+    const handleAddTime = (info) =>{
+       setTime(time + info.time);
     }
    
     return (
@@ -30,7 +25,7 @@ const Activities = () =>{
                 }
                 
             </div>
-            <RecordCart></RecordCart>
+            <RecordCart time={time}></RecordCart>
           </div>
         </div>
     );
