@@ -1,0 +1,25 @@
+.questions{
+    width: 100%;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;  
+}
+.questions h1{
+    color: rgb(221, 2, 122);
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: underline;
+}
+.questions h2{
+    color: rgb(143, 2, 80);
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: underline;
+}
+.questions p{
+    color: rgb(106, 26, 66);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}

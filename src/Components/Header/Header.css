@@ -6,9 +6,8 @@
     font-size: x-large;
     font-weight: 800px;
 }
-.header-text h1{
+.header-text h2{
     color: rgb(221, 2, 122);
-    box-shadow: 2px 2px 20px gray;
     padding: 20px;
     margin-top: 0;
     
