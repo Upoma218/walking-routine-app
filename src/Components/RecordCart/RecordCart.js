@@ -47,8 +47,8 @@ const RecordCart = () => {
             <h3>Break Time</h3>
                 <p>{}</p>
             </div>
-            <div style={{ padding: 30 }} className='profile-info'>
-              <button
+            <div>
+              <button className='toast-btn'
               onClick={() => {
               toast(
               <div>
@@ -60,10 +60,12 @@ const RecordCart = () => {
             {
               position: 'top-center',
               style: {
-                background: '#ff1744',
+                background: 'rgb(221, 2, 122)',
                 color: '#fff',
+                border: '10px solid white',
+                filter: 'drop-shadow(10px 10px 60px #000)'
               },
-              duration: 2000,
+              duration: 5000,
             }
           );
         }}

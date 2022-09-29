@@ -37,3 +37,13 @@
     color: white;
     font-weight: 700;
 }
+.toast-btn{
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    color: rgb(221, 2, 122);
+    font-weight: 800;
+    padding: 20px 40px;
+    font-size: medium;
+}
