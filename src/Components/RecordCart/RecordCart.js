@@ -6,7 +6,8 @@ import "./profile.jpg";
 import logo from './profile.jpg';
 import toast, { Toaster } from 'react-hot-toast';
 
-const RecordCart = () => {
+const RecordCart = (props) =>{
+    const {cart} = props
     return (
         <div className='walking-record'>
                <div className='personal-info'>
@@ -32,20 +33,20 @@ const RecordCart = () => {
             </div>
             <h3>Add a break</h3>
             <div className='profile-info'>
-                <button><p>10s</p></button>
-                <button><p>20s</p></button>
-                <button><p>30s</p></button>
-                <button><p>40s</p></button>
-                <button><p>50s</p></button>
+                <button>10s</button>
+                <button>20s</button>
+                <button>30s</button>
+                <button>40s</button>
+                <button>50s</button>
             </div>
             <h3>Walking Time Details</h3>
             <div className='profile-info'>
                 <h3>Walking Time</h3>
-                <p>{}</p>
+                <p>seconds</p>
             </div>
             <div className='profile-info'>
             <h3>Break Time</h3>
-                <p>{}</p>
+                <p >seconds</p>
             </div>
             <div>
               <button className='toast-btn'
@@ -65,7 +66,7 @@ const RecordCart = () => {
                 border: '10px solid white',
                 filter: 'drop-shadow(10px 10px 60px #000)'
               },
-              duration: 5000,
+              duration: 3000,
             }
           );
         }}

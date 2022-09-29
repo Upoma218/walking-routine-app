@@ -14,7 +14,7 @@ const Header = () => {
 
             </span>Weekly-Walking-Routine-App</h3>
         </div>
-        <h2>Select Today's Walking</h2>
+        <h2>Select Today's Walking times!</h2>
         </div>
     );
 };

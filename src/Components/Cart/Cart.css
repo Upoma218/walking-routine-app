@@ -21,3 +21,6 @@
     border: none;
     padding: 7px;
 }
+.cart-body button:hover{
+    background-color: rgb(28, 9, 139);
+}
