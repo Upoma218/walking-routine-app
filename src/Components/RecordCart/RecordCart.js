@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocation } from '@fortawesome/free-solid-svg-icons';
 import "./profile.jpg";
 import logo from './profile.jpg';
-import Toast from './Toast';
+import toast, { Toaster } from 'react-hot-toast';
 
 const RecordCart = () => {
     return (
@@ -47,12 +47,38 @@ const RecordCart = () => {
             <h3>Break Time</h3>
                 <p>{}</p>
             </div>
-            <div className="profile-info">
-                <Toast></Toast>
-            </div>
+            <div style={{ padding: 30 }} className='profile-info'>
+              <button
+              onClick={() => {
+              toast(
+              <div>
+              <h2>Congratulations!!</h2>
+              <p>
+                You have successfully completed the whole round.
+              </p>
+            </div>,
+            {
+              position: 'top-center',
+              style: {
+                background: '#ff1744',
+                color: '#fff',
+              },
+              duration: 2000,
+            }
+          );
+        }}
+      >
+        Activity Completed
+            </button>
+    <Toaster />
+           </div>
             
         </div>
     );
 };
 
 export default RecordCart;
+
+
+
+ 
